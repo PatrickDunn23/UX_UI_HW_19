@@ -200,6 +200,7 @@ h2{
     line-height: normal;
     letter-spacing: 0.9px;
     margin-top: 30px;
+   
   }
 
   .resumeSpacing{
@@ -360,6 +361,25 @@ ul li {
   }
 /* Contact Section................. */
 
+.contactItems{
+    display: flex;
+    color: #000;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    margin-top: 30px;
+    padding-bottom: 3px;
+}
+
+.contactText{
+    padding-left: 30px;
+}
+
+
+
 
   /* Animations and media................. */
 @keyframes spin {
@@ -418,3 +438,25 @@ ul li {
 .active{
     color: #EF9A63;
 }
+/* Resume overlay changes................. */
+.reumeBackground{
+    display: flex;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(241, 240, 242, 0.60);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+    }
+    #resumeImage {
+        display: flex;
+        margin-top: 90px;
+        width: auto;
+        height: 85%;
+        align-items: center;
+        justify-content: center;
+        transition: all .5s ease;
+      }
